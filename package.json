@@ -8,7 +8,7 @@
     "url": "git+https://github.com/josephquested/slush-templit.git"
   },
   "keywords": [
-    "slushgenerator"
+    "slushgenerator",
     "slush",
     "templit",
     "express"
