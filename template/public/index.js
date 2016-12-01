@@ -1,1 +1,1 @@
-console.log('welcome to templit')
+console.log('welcome to templit!')

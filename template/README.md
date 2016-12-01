@@ -10,7 +10,7 @@ cd <%= name %>
 npm install
 ```
 
-## development
+## run
 
 ```
 npm start
