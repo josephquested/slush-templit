@@ -1,0 +1,24 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "description": "<%= description %>",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= author %>/<%= name %>"
+  },
+  "author": "<%= author %>",
+  "license": "<%= license %>",
+  "bugs": {
+    "url": "https://github.com/<%= author %>/<%= name %>/issues"
+  },
+  "homepage": "https://github.com/<%= author %>/<%= name %>",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0",
+    "templit": "^1.0.2"
+  }
+}
