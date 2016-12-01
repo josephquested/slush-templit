@@ -1,13 +1,13 @@
-# slush-yopro
+# slush-templit
 
-> a slush generator for slim yo-yo/redux apps
+> a slush generator for templit apps
 
 ## Getting Started
 
-Install `slush` and `slush-yopro` globally:
+Install `slush` and `slush-templit` globally:
 
 ```bash
-$ npm install -g slush slush-yopro
+$ npm install -g slush slush-templit
 ```
 
 ### Usage
@@ -15,13 +15,13 @@ $ npm install -g slush slush-yopro
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-yopro-app
+$ mkdir my-templit-app
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-yopro-app && slush yopro
+$ cd my-templit-app && slush templit
 ```
 
 *Kaboom*
