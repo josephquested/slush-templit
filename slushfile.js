@@ -34,6 +34,8 @@ gulp.task('default', function (done) {
     message: 'done?'
   }])
     .then(function (answers) {
+      // replaces whitespace in name with dashes
+      answers.name.replace(/\s+/g, '-')
       if (!answers.moveon) {
         return done()
       }
