@@ -1,6 +1,6 @@
 {
   "name": "slush-templit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a slush generator for templit projects",
   "main": "slushfile.js",
   "repository": {
