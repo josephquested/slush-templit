@@ -9,7 +9,7 @@ var licenses = require('osi-licenses')
 gulp.task('default', function (done) {
   inquirer.prompt([{
     type: 'input',
-    name: 'name',
+    name: 'name (no spaces)',
     message: 'what is your app called?',
     // Get app name from arguments by default
     default: gulp.args.join(' ')
